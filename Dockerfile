@@ -1,4 +1,4 @@
-FROM homeassistant/home-assistant:latest
+FROM ghcr.io/home-assistant/home-assistant:stable
 
 COPY requirements.txt /tmp/requirements.txt
 
