@@ -4,7 +4,11 @@ name: Dockerfile Build
 on:
   push:
     branches:
-      - '2022'
+      - 'master'
+      - 'main'
+  registry_package:
+    action:
+      - updated
 
 jobs:
   docker:
